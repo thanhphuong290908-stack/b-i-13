@@ -128,7 +128,19 @@ Sự giống nhau và tương thích của Style Sheet trong các phần mềm s
 - Khuôn mẫu định dạng: Cả Style Sheet và CSS đều cho phép bạn tạo ra các khuôn mẫu định dạng để áp dụng cho các phần tử văn bản. Bằng cách này, bạn có thể định dạng các tiêu đề, đoạn văn, danh sách, v.v., một cách thống nhất và dễ dàng.<br>
 - Kiểm soát phong cách và định dạng: Cả Style Sheet và CSS đều cho phép bạn kiểm soát phong cách và định dạng của các phần tử văn bản. Bạn có thể điều chỉnh màu sắc, kích thước chữ, font chữ, độ dày của đường viền, khoảng cách, v.v., để tạo ra giao diện văn bản phù hợp với ý định của mình.
   
-   <div class="problem-box">
+   <div class=".problem-box {
+    background: white;
+    padding: 18px 22px;
+    border-left: 6px solid #2a4d69;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+
+    /* FIX TRÀN CHỮ */
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+}">
         <b>Đề bài:</b>  
 <pre>
 <p>Vận dụng 2 trang 75 Tin học 12: Thiết lập trang web với nội dung sau và định dạng trang bằng các mẫu CSS</p>
